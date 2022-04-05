@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "terraform-aleksandr-skachkov-2022"
-        key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
+        key = "terraform-aleksandr-skachkov-2022/terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
 }
